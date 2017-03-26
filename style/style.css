@@ -1,0 +1,48 @@
+#card{
+  border:1px solid #ddd;
+   padding :6px;
+   text-align:center;
+   width:200px;
+   height:200px;
+   margin:20px;
+   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+   cursor:pointer;
+   display:inline-block;
+   transition:box-shadow 0.5s;
+   background-color: #ffffff;
+   margin-top: 50px;
+}
+
+#dialog-box{
+  font-size: 20px;
+}
+
+#card:hover{
+  box-shadow:0 17px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+#title{
+  font-size: 51px;
+}
+
+body{
+  background-image: url(https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg);
+  background-repeat: repeat;
+}
+
+*{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#search{
+  width:250px;
+  text-align: center;
+  left: 40%;
+  position: absolute;
+}
+
+#modal-img{
+  height: 180px;
+  width: 180px;
+}
